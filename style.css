@@ -1,0 +1,121 @@
+<style>
+
+body
+{
+margin:0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+.main
+{
+	width:100%;
+}
+
+nav
+{
+    direction: rtl;
+  	width:100%;
+    background-color:rgba(0, 0, 0, 0.37);
+    height:80px;
+    line-height:80px;
+    padding: 0px 100px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+a 
+{
+  	text-decoration:none;
+  	color:white	;
+  	font-size: 18px;
+  	transition: 0.5s all ease;
+}
+
+ul
+{
+  	margin:0px  ;
+    margin-right: 100px;
+}
+
+ul li
+{
+   float: left;
+   padding:0px 10px;
+   list-style: none;
+}
+
+ul li a:hover
+{
+	 color:#ddd;
+}
+
+
+.Header
+{
+    background-image: url('food.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+
+
+
+
+.text
+{
+    margin-top: -23%
+}
+
+.text h1
+{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.text p
+{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;	
+}
+
+.buttons
+{
+	margin-left: 15%;
+  margin-top: 10px;
+}
+
+button
+{
+	width:120px;
+	height:45px;
+	border:1px solid white;
+  color:black;
+}
+
+button a
+{
+	text-decoration: none;
+	font-size: 18px;
+    color:black;
+}
+
+.btn-1
+{
+	margin-left: 43%; 
+	background: white;
+	border:1px solid white;
+}
+
+button:hover
+{
+background: #deb887;
+}
+
+
+</style>

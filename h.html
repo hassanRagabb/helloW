@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title> booking a visit in restaurant</title>
+       <style>
+         body {
+font-family: Calibri, Helvetica, sans-serif;
+background-color:  white;
+    padding: 10px;
+
+} 
+/* Following reservation class used padding for generate space around it, and also use a background-color for specify the color lightblue as a background */
+.reservation {
+padding: 70px;
+background-color: white;
+}
+
+
+
+input[type=text] {
+  width: 100%;
+  padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+ border: none;
+ background: #f1f1f1;
+}
+
+
+ 
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #00FFEF;
+  color: white;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  padding: 16px 20px;
+  width: 100%;
+  opacity: 0.9;
+}
+button:hover {
+background-color: #ebf;
+}
+       </style>
+    </head>
+    <body>
+
+
+<form >
+  <div class="reservation">
+  <center> <h1>Registration</h1></center>
+  <hr>
+  <label for="fname">First Name</label>
+  <input type="text" name="fname">
+  <label for="lname">Last Name</label>
+  <input type="text" name="lname"> 
+  
+  <label for="number">No. of persons:</label>
+  <input type="number"><br><br>
+ 
+  <label for="time">Time:</label>
+  <input type='time'><br><br>
+
+  <label for="date">Date:</label>
+  <input type='date'><br><br>
+
+  <label for="payment">Choose a payment way :</label>
+  <select id="payment" name="paylist" form="payform">
+  <option value="Cash">Cash</option>
+  <option value="Debit card">Depit Card</option>
+  <option value="Credit cards">Credit cards</option>
+  <option value="Mobile payments">Mobile payments</option>
+  <option value="Electronic bank transfers">Electronic bank transfers</option>
+</select>
+
+</div></form>
+      <p>
+        <button type="submit">Submit</button>
+        <a href="index.html">
+    <button type="button" onclick="window.location='index.html'">Previous Page</button></a>
+    </p>
+</body>
+</html>
